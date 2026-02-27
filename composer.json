@@ -1,0 +1,32 @@
+{
+    "name": "iqual/icms_bundle_event_content",
+    "type": "drupal-recipe",
+    "description": "Provide default content for the ICMS Event.",
+    "keywords": [
+        "ICMS",
+        "content",
+        "recipe",
+        "Drupal recipes",
+        "drupal recipe"
+    ],
+    "license": [
+        "GPL-2.0-or-later"
+    ],
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://support-iqual.atlassian.net/wiki/spaces/ICMS/pages/4519755795/Layout+Event",
+        "source": "https://github.com/iqual-ch/blokkli-starterkit-sw-experiment"
+    },
+    "require": {
+        "iqual/icms_bundle_event": "^1.0",
+        "iqual/icms_base_content": "^1.0"
+    },
+    "extra": {
+        "patches": {
+            "drupal/core": {
+                "TypeError while importing address (https://www.drupal.org/i/3352384):": "https://www.drupal.org/files/issues/2025-07-05/TypeError_htmlspecialchars_ArgumentNustBeTypeString_ArrayGiven-3352384-76.patch"
+            }
+        }
+    },
+    "version": "1.x-dev"
+}

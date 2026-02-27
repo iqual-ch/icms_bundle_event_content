@@ -1,0 +1,54 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: ec1ef40a-b7c5-4e3a-975b-d5caf865fed7
+  bundle: main
+  default_langcode: en
+  depends:
+    8566314e-19d1-4791-bc35-3b4a13149fcc: menu_link_content
+    b8d7d2e8-2c7d-437e-a9f3-87dfbaafdea7: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Events manual filter'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: b8d7d2e8-2c7d-437e-a9f3-87dfbaafdea7
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 1
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:8566314e-19d1-4791-bc35-3b4a13149fcc'
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_status:
+    -
+      value: true
+  content_translation_created:
+    -
+      value: 1769683860

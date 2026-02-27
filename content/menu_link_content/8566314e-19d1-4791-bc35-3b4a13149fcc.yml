@@ -1,0 +1,50 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 8566314e-19d1-4791-bc35-3b4a13149fcc
+  bundle: main
+  default_langcode: en
+  depends:
+    4bfed485-16f7-40e8-ad4c-4bed629b6da0: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: Events
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: 4bfed485-16f7-40e8-ad4c-4bed629b6da0
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  content_translation_uid:
+    -
+      target_id: 1
+  content_translation_status:
+    -
+      value: true
+  content_translation_created:
+    -
+      value: 1769683136

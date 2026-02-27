@@ -1,0 +1,97 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e0c120c4-c46b-485f-b1b0-2fd1585c3217
+  bundle: icms_event
+  default_langcode: en
+  depends:
+    6462ab73-beb9-449b-b85b-29b185216c3e: media
+    73a2d543-f54a-4839-82e8-b47627635b66: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Test past event'
+  created:
+    -
+      value: 1769691096
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: /events/test-past-event
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: '<p>this event should not be visible in the listing</p>'
+      format: icms_minimal
+      summary: ''
+  field_blokkli_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1769691158
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_icms_event_occurrence:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: cd1320a3-34c8-4c5b-b97b-4553798b262b
+          bundle: icms_event_occurrence
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1770618693
+          behavior_settings:
+            -
+              value: {  }
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_date:
+            -
+              value: 1581289200
+              end_value: 1581375540
+              duration: 1439
+              rrule: 0
+              rrule_index: 0
+              timezone: ''
+  field_icms_image:
+    -
+      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+  field_icms_topics:
+    -
+      entity: 73a2d543-f54a-4839-82e8-b47627635b66

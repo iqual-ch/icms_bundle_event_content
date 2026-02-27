@@ -1,0 +1,104 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b8d7d2e8-2c7d-437e-a9f3-87dfbaafdea7
+  bundle: icms_page
+  default_langcode: en
+  depends:
+    73a2d543-f54a-4839-82e8-b47627635b66: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Events with manual filter'
+  created:
+    -
+      value: 1769683680
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: /events/events-manual-filter
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Topic A, with teaser elements filtered using a manual filter.'
+      format: plain_text
+      summary: ''
+  field_blokkli_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1769683860
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_icms_paragraphs:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: baf736c0-7721-4265-b3d8-ebc5644a320c
+          bundle: icms_layout_event
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1769683739
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: none
+                  spacingBottom: small
+                  spacingTop: small
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_listing_type:
+            -
+              value: manual
+          field_icms_pretitle:
+            -
+              value: 'Topic A'
+          field_icms_title:
+            -
+              value: 'Events with manual filter'
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+          field_icms_topics:
+            -
+              entity: 73a2d543-f54a-4839-82e8-b47627635b66

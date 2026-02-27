@@ -1,0 +1,130 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b6ca8d30-0851-4ec2-98af-ddaed34cede5
+  bundle: icms_event
+  default_langcode: en
+  depends:
+    6462ab73-beb9-449b-b85b-29b185216c3e: media
+    b64307f3-9232-4837-a09d-dcfd877ad189: taxonomy_term
+    73a2d543-f54a-4839-82e8-b47627635b66: taxonomy_term
+    f8a1a06a-c8bd-4efc-bc59-8feee29d4808: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Test Event 3'
+  created:
+    -
+      value: 1769596989
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: /events/test-event-3
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  field_blokkli_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1769597013
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_icms_event_occurrence:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: d4871025-b0d7-43d9-b243-e68f8cd4c0be
+          bundle: icms_event_occurrence
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1770131480
+          behavior_settings:
+            -
+              value: {  }
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_date:
+            -
+              value: 1897340400
+              end_value: 1897426740
+              duration: 1439
+              rrule: 0
+              rrule_index: 0
+              timezone: ''
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: f75f4ebe-6a31-485f-93c1-9e9c4473a75a
+          bundle: icms_event_occurrence
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1770131471
+          behavior_settings:
+            -
+              value: {  }
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_date:
+            -
+              value: 1707001200
+              end_value: 1707087540
+              duration: 1439
+              rrule: 0
+              rrule_index: 0
+              timezone: ''
+  field_icms_image:
+    -
+      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+  field_icms_topics:
+    -
+      entity: b64307f3-9232-4837-a09d-dcfd877ad189
+    -
+      entity: 73a2d543-f54a-4839-82e8-b47627635b66
+    -
+      entity: f8a1a06a-c8bd-4efc-bc59-8feee29d4808

@@ -1,0 +1,506 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 9d8b7800-4cfb-407e-86c4-d1a163cd1975
+  bundle: icms_event
+  default_langcode: en
+  depends:
+    6462ab73-beb9-449b-b85b-29b185216c3e: media
+    f8a1a06a-c8bd-4efc-bc59-8feee29d4808: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Test Event 4'
+  created:
+    -
+      value: 1769680332
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: /events/test-event-4
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: '<p>Lorem ipsum dolor sakdaskhd as</p><p>dsa&nbsp;</p><p>d</p><p>asdas</p><p>&nbsp;dasd</p><p>a s</p><p>d</p><p>asd&nbsp;</p><p>as</p><p>das</p>'
+      format: icms_minimal
+      summary: ''
+  field_blokkli_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1769680440
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_icms_event_occurrence:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 95932596-e8c0-463c-a94e-89441db1cc83
+          bundle: icms_event_occurrence
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1770208285
+          behavior_settings:
+            -
+              value: {  }
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_address:
+            -
+              langcode: en
+              country_code: CH
+              administrative_area: ''
+              locality: Zurich
+              postal_code: '8000'
+              sorting_code: ''
+              address_line1: 'Eichhalde 23'
+              address_line2: ''
+          field_icms_coordinates:
+            -
+              lat: 47.376127096907
+              lng: 8.5271485149289
+              lat_sin: 0.73581499557577
+              lat_cos: 0.67718261369133
+              lng_rad: 0.14882681739205
+              data: {  }
+          field_icms_date:
+            -
+              value: 1896609600
+              end_value: 1896613200
+              duration: 60
+              rrule: 0
+              rrule_index: 0
+              timezone: ''
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: ef425413-94bf-4548-95a4-a0f2dc98b07b
+          bundle: icms_event_occurrence
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1770208302
+          behavior_settings:
+            -
+              value: {  }
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_date:
+            -
+              value: 1896696000
+              end_value: 1896699600
+              duration: 60
+              rrule: 0
+              rrule_index: 0
+              timezone: ''
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: ed2cfeca-6b77-41b3-9ddf-d9ed0b651fbd
+          bundle: icms_event_occurrence
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1770208350
+          behavior_settings:
+            -
+              value: {  }
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_date:
+            -
+              value: 1896739200
+              end_value: 1896742800
+              duration: 60
+              rrule: 0
+              rrule_index: 0
+              timezone: ''
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 71249a09-d7e8-471b-b4fd-4bef681027b0
+          bundle: icms_event_occurrence
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1770208274
+          behavior_settings:
+            -
+              value: {  }
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_address:
+            -
+              langcode: en
+              country_code: CH
+              administrative_area: ''
+              locality: Bern
+              postal_code: '3011'
+              sorting_code: ''
+              address_line1: 'Iqual AG'
+              address_line2: 'Bollwerk 31'
+          field_icms_coordinates:
+            -
+              lat: 46.951381126271
+              lng: 7.4412128913692
+              lat_sin: 0.7307747222455
+              lat_cos: 0.68261871152717
+              lng_rad: 0.12987366529624
+              data: {  }
+          field_icms_date:
+            -
+              value: 1896523200
+              end_value: 1896526800
+              duration: 60
+              rrule: 0
+              rrule_index: 0
+              timezone: ''
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: c172b620-c939-4d06-a8c0-7807628e9439
+          bundle: icms_event_occurrence
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1770208359
+          behavior_settings:
+            -
+              value: {  }
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_date:
+            -
+              value: 1896825600
+              end_value: 1896829200
+              duration: 60
+              rrule: 0
+              rrule_index: 0
+              timezone: ''
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: c2d36fe4-e1fe-4d5b-abf0-fe5c03e25c9c
+          bundle: icms_event_occurrence
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1770208381
+          behavior_settings:
+            -
+              value: {  }
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_date:
+            -
+              value: 1896912000
+              end_value: 1896915600
+              duration: 60
+              rrule: 0
+              rrule_index: 0
+              timezone: ''
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 557ecaac-ef18-4de2-ad51-19fdf6b45f93
+          bundle: icms_event_occurrence
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1770208444
+          behavior_settings:
+            -
+              value: {  }
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_date:
+            -
+              value: 1896998400
+              end_value: 1897002000
+              duration: 60
+              rrule: 0
+              rrule_index: 0
+              timezone: ''
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 69f829fa-1b12-430f-8379-bb2dd6407c91
+          bundle: icms_event_occurrence
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1770208451
+          behavior_settings:
+            -
+              value: {  }
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_date:
+            -
+              value: 1897084800
+              end_value: 1897088400
+              duration: 60
+              rrule: 0
+              rrule_index: 0
+              timezone: ''
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: c76e3dcc-f2a3-4ee0-9b01-d11625bb8f57
+          bundle: icms_event_occurrence
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1770208457
+          behavior_settings:
+            -
+              value: {  }
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_date:
+            -
+              value: 1907535600
+              end_value: 1907539200
+              duration: 60
+              rrule: 0
+              rrule_index: 0
+              timezone: ''
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 83a1838c-68b3-488c-826e-d4d26b12fa01
+          bundle: icms_event_occurrence
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1770212918
+          behavior_settings:
+            -
+              value: {  }
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_date:
+            -
+              value: 1738713600
+              end_value: 1738717200
+              duration: 60
+              rrule: 0
+              rrule_index: 0
+              timezone: ''
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: ec7d49ea-2b2e-465d-a1dd-ab31fd4ffe9c
+          bundle: icms_event_occurrence
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1770212921
+          behavior_settings:
+            -
+              value: {  }
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_date:
+            -
+              value: 1707091200
+              end_value: 1707094800
+              duration: 60
+              rrule: 0
+              rrule_index: 0
+              timezone: ''
+  field_icms_image:
+    -
+      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+  field_icms_paragraphs:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: c79def12-388c-4030-a5b1-15deedceaf88
+          bundle: icms_layout_testimonial
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1770217742
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  buttonAlignment: left
+                  colorScheme: none
+                  spacingBottom: small
+                  spacingTop: small
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_pretitle:
+            -
+              value: sdf
+          field_icms_text:
+            -
+              value: '<p>fdsdfsdfs</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: dsfsdfsdf
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+  field_icms_topics:
+    -
+      entity: f8a1a06a-c8bd-4efc-bc59-8feee29d4808
+  field_icms_webform:
+    -
+      target_id: icms_event_registration
+      default_data: ''
+      status: open
+      open: ''
+      close: ''

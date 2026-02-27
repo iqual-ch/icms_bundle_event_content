@@ -1,0 +1,132 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8ef58c97-0237-4d81-be5a-51112cff5d7d
+  bundle: icms_event
+  default_langcode: en
+  depends:
+    73a2d543-f54a-4839-82e8-b47627635b66: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Test Event 1'
+  created:
+    -
+      value: 1770618709
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: /events/test-event-1
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: '<p>Lorem ipsum dolor sit amet</p>'
+      format: icms_minimal
+      summary: ''
+  field_blokkli_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1770618795
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_icms_event_occurrence:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 3e9ccd20-d030-4817-8467-383410bebd71
+          bundle: icms_event_occurrence
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1770618730
+          behavior_settings:
+            -
+              value: {  }
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_date:
+            -
+              value: 1865372400
+              end_value: 1865458740
+              duration: 1439
+              rrule: 0
+              rrule_index: 0
+              timezone: ''
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 82fc13f0-e9de-45ff-8749-6fb6c2421c57
+          bundle: icms_event_occurrence
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1770618730
+          behavior_settings:
+            -
+              value: {  }
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_date:
+            -
+              value: 1868137200
+              end_value: 1868223540
+              duration: 1439
+              rrule: 0
+              rrule_index: 0
+              timezone: ''
+  field_icms_topics:
+    -
+      entity: 73a2d543-f54a-4839-82e8-b47627635b66
+  field_icms_webform:
+    -
+      target_id: icms_event_registration
+      default_data: ''
+      status: open
+      open: ''
+      close: ''

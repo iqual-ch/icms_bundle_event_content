@@ -1,0 +1,5 @@
+name: 'ICMS Event - Content Recipe'
+description: 'Provide default content for the ICMS Event.'
+type: 'Content'
+recipes:
+  - icms_base_content

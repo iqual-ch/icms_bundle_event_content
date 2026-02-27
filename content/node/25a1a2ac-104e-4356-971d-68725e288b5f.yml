@@ -1,0 +1,104 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 25a1a2ac-104e-4356-971d-68725e288b5f
+  bundle: icms_page
+  default_langcode: en
+  depends:
+    73a2d543-f54a-4839-82e8-b47627635b66: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Events with context filter'
+  created:
+    -
+      value: 1769683261
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: /events/events-context-filter
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Topic A, with teaser elements filtered using a context filter.'
+      format: plain_text
+      summary: ''
+  field_blokkli_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1769683397
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_icms_paragraphs:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 8298c000-1904-4389-98e3-ff6e1a6716a7
+          bundle: icms_layout_event
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1769683512
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: none
+                  spacingBottom: small
+                  spacingTop: small
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_listing_type:
+            -
+              value: contextual
+          field_icms_pretitle:
+            -
+              value: 'Topic A'
+          field_icms_title:
+            -
+              value: 'Events with context filter'
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+  field_icms_topics:
+    -
+      entity: 73a2d543-f54a-4839-82e8-b47627635b66

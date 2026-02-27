@@ -1,0 +1,98 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 4bfed485-16f7-40e8-ad4c-4bed629b6da0
+  bundle: icms_page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Events
+  created:
+    -
+      value: 1769441710
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: /events
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  field_blokkli_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1769441723
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_icms_paragraphs:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 9de5948d-0dc5-4a6a-94a8-a1457b675a2f
+          bundle: icms_layout_event
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1769441828
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: none
+                  spacingBottom: small
+                  spacingTop: small
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_listing_type:
+            -
+              value: all
+          field_icms_pretitle:
+            -
+              value: PreTitle
+          field_icms_text:
+            -
+              value: '<p>Lorem ipsum dolor.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: 'Event layout'
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
