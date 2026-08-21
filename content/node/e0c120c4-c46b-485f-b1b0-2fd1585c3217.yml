@@ -3,95 +3,155 @@ _meta:
   entity_type: node
   uuid: e0c120c4-c46b-485f-b1b0-2fd1585c3217
   bundle: icms_event
-  default_langcode: en
+  default_langcode: de
   depends:
     6462ab73-beb9-449b-b85b-29b185216c3e: media
     73a2d543-f54a-4839-82e8-b47627635b66: taxonomy_term
 default:
   revision_uid:
-    -
-      target_id: 1
+  - target_id: 1
   status:
-    -
-      value: true
+  - value: true
   uid:
-    -
-      target_id: 1
+  - target_id: 1
   title:
-    -
-      value: 'Test past event'
+  - value: Vergangene Veranstaltung Thema A
   created:
-    -
-      value: 1769691096
+  - value: 1769691096
   promote:
-    -
-      value: false
+  - value: false
   sticky:
-    -
-      value: false
+  - value: false
   moderation_state:
-    -
-      value: published
+  - value: published
   path:
-    -
-      alias: /events/test-past-event
-      langcode: en
-      pathauto: 1
+  - alias: /veranstaltungen/vergangene-veranstaltung-thema-a
+    langcode: de
+    pathauto: 0
   content_translation_source:
-    -
-      value: und
+  - value: und
   content_translation_outdated:
-    -
-      value: false
+  - value: false
   body:
-    -
-      value: '<p>this event should not be visible in the listing</p>'
-      format: icms_minimal
-      summary: ''
+  - value: <p>Diese Veranstaltung darf nicht in der Liste erscheinen.</p>
+    format: icms_minimal
+    summary: ''
   field_blokkli_comments:
-    -
-      status: 2
-      cid: 0
-      last_comment_timestamp: 1769691158
-      last_comment_name: ''
-      last_comment_uid: 1
-      comment_count: 0
+  - status: 2
+    cid: 0
+    last_comment_timestamp: 1769691158
+    last_comment_name: ''
+    last_comment_uid: 1
+    comment_count: 0
   field_icms_event_occurrence:
-    -
-      entity:
-        _meta:
-          version: '1.0'
-          entity_type: paragraph
-          uuid: cd1320a3-34c8-4c5b-b97b-4553798b262b
-          bundle: icms_event_occurrence
-          default_langcode: en
-        default:
-          status:
-            -
-              value: true
-          created:
-            -
-              value: 1770618693
-          behavior_settings:
-            -
-              value: {  }
-          content_translation_source:
-            -
-              value: und
-          content_translation_outdated:
-            -
-              value: false
-          field_icms_date:
-            -
-              value: 1581289200
-              end_value: 1581375540
-              duration: 1439
-              rrule: 0
-              rrule_index: 0
-              timezone: ''
+  - entity:
+      _meta:
+        version: '1.0'
+        entity_type: paragraph
+        uuid: cd1320a3-34c8-4c5b-b97b-4553798b262b
+        bundle: icms_event_occurrence
+        default_langcode: en
+      default:
+        status:
+        - value: true
+        created:
+        - value: 1770618693
+        behavior_settings:
+        - value: {}
+        content_translation_source:
+        - value: und
+        content_translation_outdated:
+        - value: false
+        field_icms_date:
+        - value: 1581289200
+          end_value: 1581375540
+          duration: 1439
+          rrule: 0
+          rrule_index: 0
+          timezone: ''
   field_icms_image:
-    -
-      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+  - entity: 6462ab73-beb9-449b-b85b-29b185216c3e
   field_icms_topics:
-    -
-      entity: 73a2d543-f54a-4839-82e8-b47627635b66
+  - entity: 73a2d543-f54a-4839-82e8-b47627635b66
+translations:
+  en:
+    status:
+    - value: true
+    uid:
+    - target_id: 1
+    title:
+    - value: Past event topic A
+    created:
+    - value: 1769691096
+    promote:
+    - value: false
+    sticky:
+    - value: false
+    moderation_state:
+    - value: published
+    path:
+    - alias: /events/past-event-topic-a
+      langcode: en
+      pathauto: 0
+    body:
+    - format: icms_minimal
+      summary: ''
+      value: <p>This event must not appear in the listing.</p>
+    content_translation_source:
+    - value: de
+    content_translation_outdated:
+    - value: false
+  fr:
+    status:
+    - value: true
+    uid:
+    - target_id: 1
+    title:
+    - value: Événement passé thème A
+    created:
+    - value: 1769691096
+    promote:
+    - value: false
+    sticky:
+    - value: false
+    moderation_state:
+    - value: published
+    path:
+    - alias: /evenements/evenement-passe-theme-a
+      langcode: fr
+      pathauto: 0
+    body:
+    - format: icms_minimal
+      summary: ''
+      value: <p>Cet événement ne doit pas apparaître dans la liste.</p>
+    content_translation_source:
+    - value: de
+    content_translation_outdated:
+    - value: false
+  it:
+    status:
+    - value: true
+    uid:
+    - target_id: 1
+    title:
+    - value: Evento passato tema A
+    created:
+    - value: 1769691096
+    promote:
+    - value: false
+    sticky:
+    - value: false
+    moderation_state:
+    - value: published
+    path:
+    - alias: /eventi/evento-passato-tema-a
+      langcode: it
+      pathauto: 0
+    body:
+    - format: icms_minimal
+      summary: ''
+      value: <p>Questo evento non deve comparire nell'elenco.</p>
+    content_translation_source:
+    - value: de
+    content_translation_outdated:
+    - value: false
