@@ -1,0 +1,162 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 648eb35e-395a-41df-9d54-744afb07797b
+  bundle: icms_page
+  default_langcode: de
+translations:
+  en:
+    revision_uid:
+    - target_id: 0
+    status:
+    - value: true
+    uid:
+    - target_id: 0
+    title:
+    - value: Event calendar
+    promote:
+    - value: false
+    sticky:
+    - value: false
+    moderation_state:
+    - value: published
+    path:
+    - alias: /event-calendar
+      langcode: en
+      pathauto: 0
+    content_translation_source:
+    - value: und
+    content_translation_outdated:
+    - value: false
+    field_blokkli_comments:
+    - status: 2
+      cid: 0
+      last_comment_timestamp: 1787847982
+      last_comment_name: ''
+      last_comment_uid: 0
+      comment_count: 0
+  fr:
+    revision_uid:
+    - target_id: 0
+    status:
+    - value: true
+    uid:
+    - target_id: 0
+    title:
+    - value: Calendrier des événements
+    promote:
+    - value: false
+    sticky:
+    - value: false
+    moderation_state:
+    - value: published
+    path:
+    - alias: /calendrier-des-evenements
+      langcode: fr
+      pathauto: 0
+    content_translation_source:
+    - value: und
+    content_translation_outdated:
+    - value: false
+    field_blokkli_comments:
+    - status: 2
+      cid: 0
+      last_comment_timestamp: 1787847982
+      last_comment_name: ''
+      last_comment_uid: 0
+      comment_count: 0
+  it:
+    revision_uid:
+    - target_id: 0
+    status:
+    - value: true
+    uid:
+    - target_id: 0
+    title:
+    - value: Calendario degli eventi
+    promote:
+    - value: false
+    sticky:
+    - value: false
+    revision_translation_affected:
+    - value: true
+    moderation_state:
+    - value: published
+    path:
+    - alias: /calendario-degli-eventi
+      langcode: it
+      pathauto: 0
+    content_translation_source:
+    - value: und
+    content_translation_outdated:
+    - value: false
+    field_blokkli_comments:
+    - status: 2
+      cid: 0
+      last_comment_timestamp: 1787847982
+      last_comment_name: ''
+      last_comment_uid: 0
+      comment_count: 0
+default:
+  revision_uid:
+  - target_id: 0
+  status:
+  - value: true
+  uid:
+  - target_id: 0
+  title:
+  - value: Veranstaltungskalender
+  promote:
+  - value: false
+  sticky:
+  - value: false
+  revision_translation_affected:
+  - value: true
+  moderation_state:
+  - value: published
+  path:
+  - alias: /veranstaltungskalender
+    langcode: de
+    pathauto: 0
+  content_translation_source:
+  - value: und
+  content_translation_outdated:
+  - value: false
+  field_blokkli_comments:
+  - status: 2
+    cid: 0
+    last_comment_timestamp: 1787847982
+    last_comment_name: ''
+    last_comment_uid: 0
+    comment_count: 0
+  field_icms_paragraphs:
+  - entity:
+      _meta:
+        version: '1.0'
+        entity_type: paragraph
+        uuid: dc442746-ab48-4886-9c42-325ca6925772
+        bundle: icms_layout_event
+        default_langcode: de
+      default:
+        status:
+        - value: true
+        created:
+        - value: 1787846000
+        behavior_settings:
+        - value:
+            paragraphs_blokkli_data:
+              colorScheme: none
+              spacingBottom: small
+              spacingTop: small
+        content_translation_source:
+        - value: und
+        content_translation_outdated:
+        - value: false
+        field_icms_listing_type:
+        - value: calendar
+        field_icms_title:
+        - value: Veranstaltungskalender
+        field_icms_title_style:
+        - value: heading-2
+        field_icms_title_weight:
+        - value: h2
