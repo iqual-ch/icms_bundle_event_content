@@ -1,0 +1,188 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 89e5495a-b9aa-4391-9e7f-9aacf8671a6b
+  bundle: icms_event
+  default_langcode: de
+  depends:
+    6462ab73-beb9-449b-b85b-29b185216c3e: media
+    b64307f3-9232-4837-a09d-dcfd877ad189: taxonomy_term
+translations:
+  en:
+    revision_uid:
+    - target_id: 0
+    status:
+    - value: true
+    uid:
+    - target_id: 0
+    title:
+    - value: Multi-day event Topic C
+    promote:
+    - value: false
+    sticky:
+    - value: false
+    moderation_state:
+    - value: published
+    path:
+    - alias: /events/multi-day-event-topic-c
+      langcode: en
+      pathauto: 0
+    content_translation_source:
+    - value: und
+    content_translation_outdated:
+    - value: false
+    field_blokkli_comments:
+    - status: 2
+      cid: 0
+      last_comment_timestamp: 1787845399
+      last_comment_name: ''
+      last_comment_uid: 0
+      comment_count: 0
+    field_icms_image:
+    - entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+    field_icms_teaser_text:
+    - value: A multi-day event without times, displayed until its end day.
+      format: icms_restricted
+    field_icms_topics:
+    - entity: b64307f3-9232-4837-a09d-dcfd877ad189
+  fr:
+    revision_uid:
+    - target_id: 0
+    status:
+    - value: true
+    uid:
+    - target_id: 0
+    title:
+    - value: Événement de plusieurs jours Thème C
+    promote:
+    - value: false
+    sticky:
+    - value: false
+    moderation_state:
+    - value: published
+    path:
+    - alias: /evenements/evenement-de-plusieurs-jours-theme-c
+      langcode: fr
+      pathauto: 0
+    content_translation_source:
+    - value: und
+    content_translation_outdated:
+    - value: false
+    field_blokkli_comments:
+    - status: 2
+      cid: 0
+      last_comment_timestamp: 1787845399
+      last_comment_name: ''
+      last_comment_uid: 0
+      comment_count: 0
+    field_icms_image:
+    - entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+    field_icms_teaser_text:
+    - value: Un événement de plusieurs jours sans horaire, affiché jusqu’à son dernier jour.
+      format: icms_restricted
+    field_icms_topics:
+    - entity: b64307f3-9232-4837-a09d-dcfd877ad189
+  it:
+    revision_uid:
+    - target_id: 0
+    status:
+    - value: true
+    uid:
+    - target_id: 0
+    title:
+    - value: Evento di più giorni Tema C
+    promote:
+    - value: false
+    sticky:
+    - value: false
+    revision_translation_affected:
+    - value: true
+    moderation_state:
+    - value: published
+    path:
+    - alias: /eventi/evento-di-piu-giorni-tema-c
+      langcode: it
+      pathauto: 0
+    content_translation_source:
+    - value: und
+    content_translation_outdated:
+    - value: false
+    field_blokkli_comments:
+    - status: 2
+      cid: 0
+      last_comment_timestamp: 1787845399
+      last_comment_name: ''
+      last_comment_uid: 0
+      comment_count: 0
+    field_icms_image:
+    - entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+    field_icms_teaser_text:
+    - value: Un evento di più giorni senza orario, visualizzato fino all’ultimo giorno.
+      format: icms_restricted
+    field_icms_topics:
+    - entity: b64307f3-9232-4837-a09d-dcfd877ad189
+default:
+  revision_uid:
+  - target_id: 0
+  status:
+  - value: true
+  uid:
+  - target_id: 0
+  title:
+  - value: Mehrtägige Veranstaltung Thema C
+  promote:
+  - value: false
+  sticky:
+  - value: false
+  revision_translation_affected:
+  - value: true
+  moderation_state:
+  - value: published
+  path:
+  - alias: /veranstaltungen/mehrtaegige-veranstaltung-thema-c
+    langcode: de
+    pathauto: 0
+  content_translation_source:
+  - value: und
+  content_translation_outdated:
+  - value: false
+  field_blokkli_comments:
+  - status: 2
+    cid: 0
+    last_comment_timestamp: 1787845399
+    last_comment_name: ''
+    last_comment_uid: 0
+    comment_count: 0
+  field_icms_event_occurrence:
+  - entity:
+      _meta:
+        version: '1.0'
+        entity_type: paragraph
+        uuid: e7d9a7ce-ada4-4a81-b0eb-f64bece6bffd
+        bundle: icms_event_occurrence
+        default_langcode: de
+      default:
+        status:
+        - value: true
+        created:
+        - value: 1787845399
+        behavior_settings:
+        - value: {}
+        content_translation_source:
+        - value: und
+        content_translation_outdated:
+        - value: false
+        field_icms_date:
+        - value: 1914444000
+          end_value: 1914703140
+          duration: 4319
+          rrule: 0
+          rrule_index: 0
+          timezone: ''
+  field_icms_image:
+  - entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+  field_icms_teaser_text:
+  - value: Eine mehrtägige Veranstaltung ohne Uhrzeit, die bis zum Endtag angezeigt wird.
+    format: icms_restricted
+  field_icms_topics:
+  - entity: b64307f3-9232-4837-a09d-dcfd877ad189
