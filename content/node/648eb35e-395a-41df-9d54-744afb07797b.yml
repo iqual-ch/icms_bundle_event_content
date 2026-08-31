@@ -146,6 +146,7 @@ default:
         - value:
             paragraphs_blokkli_data:
               colorScheme: none
+              display: calendar
               spacingBottom: small
               spacingTop: small
         content_translation_source:
@@ -153,7 +154,7 @@ default:
         content_translation_outdated:
         - value: false
         field_icms_listing_type:
-        - value: calendar
+        - value: all
         field_icms_title:
         - value: Veranstaltungskalender
         field_icms_title_style:
