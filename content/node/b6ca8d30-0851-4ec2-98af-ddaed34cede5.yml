@@ -3,168 +3,473 @@ _meta:
   entity_type: node
   uuid: b6ca8d30-0851-4ec2-98af-ddaed34cede5
   bundle: icms_event
-  default_langcode: de
+  default_langcode: en
   depends:
-    6462ab73-beb9-449b-b85b-29b185216c3e: media
+    da923ff9-3c3a-4d38-998d-29b826b1036f: media
     b64307f3-9232-4837-a09d-dcfd877ad189: taxonomy_term
     73a2d543-f54a-4839-82e8-b47627635b66: taxonomy_term
     f8a1a06a-c8bd-4efc-bc59-8feee29d4808: taxonomy_term
+    8a653cc6-f666-4cbb-99db-349cb90b9659: media
 default:
   revision_uid:
-  - target_id: 1
+    -
+      target_id: 1
   status:
-  - value: true
+    -
+      value: true
   uid:
-  - target_id: 1
+    -
+      target_id: 1
   title:
-  - value: Veranstaltung 3 Thema A/B/C
-  created:
-  - value: 1769596989
+    -
+      value: 'Consectetur adipisci (Thema A/B/C)'
   promote:
-  - value: false
+    -
+      value: false
   sticky:
-  - value: false
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
   moderation_state:
-  - value: published
+    -
+      value: published
   path:
-  - alias: /veranstaltungen/veranstaltung-3-thema-abc
-    langcode: de
-    pathauto: 0
-  content_translation_source:
-  - value: und
-  content_translation_outdated:
-  - value: false
-  field_blokkli_comments:
-  - status: 2
-    cid: 0
-    last_comment_timestamp: 1769597013
-    last_comment_name: ''
-    last_comment_uid: 1
-    comment_count: 0
-  field_icms_event_occurrence:
-  - entity:
-      _meta:
-        version: '1.0'
-        entity_type: paragraph
-        uuid: d4871025-b0d7-43d9-b243-e68f8cd4c0be
-        bundle: icms_event_occurrence
-        default_langcode: en
-      default:
-        status:
-        - value: true
-        created:
-        - value: 1770131480
-        behavior_settings:
-        - value: {}
-        content_translation_source:
-        - value: und
-        content_translation_outdated:
-        - value: false
-        field_icms_date:
-        - value: 1897340400
-          end_value: 1897426740
-          duration: 1439
-          rrule: 0
-          rrule_index: 0
-          timezone: ''
-  - entity:
-      _meta:
-        version: '1.0'
-        entity_type: paragraph
-        uuid: f75f4ebe-6a31-485f-93c1-9e9c4473a75a
-        bundle: icms_event_occurrence
-        default_langcode: en
-      default:
-        status:
-        - value: true
-        created:
-        - value: 1770131471
-        behavior_settings:
-        - value: {}
-        content_translation_source:
-        - value: und
-        content_translation_outdated:
-        - value: false
-        field_icms_date:
-        - value: 1707001200
-          end_value: 1707087540
-          duration: 1439
-          rrule: 0
-          rrule_index: 0
-          timezone: ''
-  field_icms_image:
-  - entity: 6462ab73-beb9-449b-b85b-29b185216c3e
-  field_icms_topics:
-  - entity: b64307f3-9232-4837-a09d-dcfd877ad189
-  - entity: 73a2d543-f54a-4839-82e8-b47627635b66
-  - entity: f8a1a06a-c8bd-4efc-bc59-8feee29d4808
-translations:
-  en:
-    status:
-    - value: true
-    uid:
-    - target_id: 1
-    title:
-    - value: Event 3 topic A/B/C
-    created:
-    - value: 1769596989
-    promote:
-    - value: false
-    sticky:
-    - value: false
-    moderation_state:
-    - value: published
-    path:
-    - alias: /events/event-3-topic-abc
+    -
+      alias: /events/consectetur-adipisci-thema-abc
       langcode: en
-      pathauto: 0
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Ligula lorem sit adipiscing ornare posuere sociosqu mauris ipsum amet elit potenti. Amet elit potenti tortor porttitor montes dolor consectetur mollis. Dignissim cubilia ligula lorem sit adipiscing ornare posuere sociosqu mauris ipsum.'
+      format: icms_minimal
+      summary: ''
+  field_blokkli_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1788181926
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_icms_event_occurrence:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: d4871025-b0d7-43d9-b243-e68f8cd4c0be
+          bundle: icms_event_occurrence
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_date:
+            -
+              value: 1897340400
+              end_value: 1897426740
+              duration: 1439
+              rrule: 0
+              rrule_index: 0
+              timezone: ''
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: f75f4ebe-6a31-485f-93c1-9e9c4473a75a
+          bundle: icms_event_occurrence
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_date:
+            -
+              value: 1707001200
+              end_value: 1707087540
+              duration: 1439
+              rrule: 0
+              rrule_index: 0
+              timezone: ''
+  field_icms_image:
+    -
+      entity: da923ff9-3c3a-4d38-998d-29b826b1036f
+  field_icms_paragraphs:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 1aee16de-5c50-4903-9dac-1325467fad20
+          bundle: icms_layout_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  width: medium
+                  spacingTop: small
+                  spacingBottom: small
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_text:
+            -
+              value: '<p>Dignissim cubilia ligula lorem sit adipiscing ornare posuere sociosqu mauris ipsum amet elit potenti. <strong>posuere sociosqu</strong> montes dolor consectetur mollis dignissim cubilia.</p><ul><li>Adipiscing ornare posuere sociosqu</li><li>Tortor porttitor montes dolor</li><li>Lorem sit adipiscing ornare</li></ul>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: 'Amet elit potenti tortor'
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+        translations:
+          de:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_text:
+              -
+                value: '<p>Veritatis vitae perspiciatis iste accusantium totam quae architecto dicta unde natus doloremque aperiam inventore. <strong>architecto dicta</strong> omnis voluptatem laudantium eaque veritatis vitae.</p><ul><li>Totam quae architecto dicta</li><li>Beatae sed omnis voluptatem</li><li>Iste accusantium totam quae</li></ul>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Perspiciatis iste accusantium totam'
+          fr:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_text:
+              -
+                value: '<p>Quos molestias cupiditate vero odio blanditiis deleniti dolores excepturi provident accusamus dignissimos praesentium corrupti. <strong>dolores excepturi</strong> similique iusto ducimus voluptatum quos molestias.</p><ul><li>Blanditiis deleniti dolores excepturi</li><li>Quas occaecati similique iusto</li><li>Vero odio blanditiis deleniti</li></ul>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Dignissimos praesentium corrupti quas'
+          it:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_text:
+              -
+                value: '<p>Nesciunt quisquam numquam nemo voluptas fugit ratione neque dolorem eius enim aspernatur consequuntur sequi. <strong>neque dolorem</strong> modi ipsam odit magni nesciunt quisquam.</p><ul><li>Fugit ratione neque dolorem</li><li>Porro adipisci modi ipsam</li><li>Nemo voluptas fugit ratione</li></ul>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Aspernatur consequuntur sequi porro'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: ba25e06a-2d86-44f5-96aa-9f59c777f8dd
+          bundle: icms_layout_text_media
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  alignHorizontalReduced: right
+                  imageFormat: landscape
+                  spacingTop: small
+                  spacingBottom: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_media_elements:
+            -
+              entity: 8a653cc6-f666-4cbb-99db-349cb90b9659
+          field_icms_subtitle:
+            -
+              value: 'Consectetur mollis dignissim cubilia ligula lorem.'
+          field_icms_text:
+            -
+              value: '<p>Posuere sociosqu mauris ipsum amet elit potenti tortor porttitor montes dolor consectetur mollis dignissim. <strong>tortor porttitor</strong> lorem sit adipiscing ornare posuere sociosqu.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: 'Mauris ipsum amet elit'
+          field_icms_title_style:
+            -
+              value: heading-3
+          field_icms_title_weight:
+            -
+              value: h2
+        translations:
+          de:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_subtitle:
+              -
+                value: 'Dicta unde natus doloremque aperiam inventore.'
+            field_icms_text:
+              -
+                value: '<p>Voluptatem laudantium eaque veritatis vitae perspiciatis iste accusantium totam quae architecto dicta unde natus. <strong>accusantium totam</strong> inventore beatae sed omnis voluptatem laudantium.</p>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Eaque veritatis vitae perspiciatis'
+          fr:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_subtitle:
+              -
+                value: 'Ducimus voluptatum quos molestias cupiditate vero.'
+            field_icms_text:
+              -
+                value: '<p>Dolores excepturi provident accusamus dignissimos praesentium corrupti quas occaecati similique iusto ducimus voluptatum quos. <strong>quas occaecati</strong> vero odio blanditiis deleniti dolores excepturi.</p>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Provident accusamus dignissimos praesentium'
+          it:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_subtitle:
+              -
+                value: 'Odit magni nesciunt quisquam numquam nemo.'
+            field_icms_text:
+              -
+                value: '<p>Neque dolorem eius enim aspernatur consequuntur sequi porro adipisci modi ipsam odit magni nesciunt. <strong>porro adipisci</strong> nemo voluptas fugit ratione neque dolorem.</p>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Eius enim aspernatur consequuntur'
+  field_icms_teaser_title:
+    -
+      value: 'Consectetur adipisci (Thema A/B/C)'
+  field_icms_topics:
+    -
+      entity: b64307f3-9232-4837-a09d-dcfd877ad189
+    -
+      entity: 73a2d543-f54a-4839-82e8-b47627635b66
+    -
+      entity: f8a1a06a-c8bd-4efc-bc59-8feee29d4808
+translations:
+  de:
+    status:
+      -
+        value: true
+    uid:
+      -
+        target_id: 1
+    title:
+      -
+        value: 'Natus voluptatem (Thema A/B/C)'
+    promote:
+      -
+        value: false
+    sticky:
+      -
+        value: false
+    moderation_state:
+      -
+        value: published
+    path:
+      -
+        alias: /veranstaltungen/natus-voluptatem-thema-abc
+        langcode: de
+        pathauto: 0
     content_translation_source:
-    - value: de
+      -
+        value: und
     content_translation_outdated:
-    - value: false
+      -
+        value: false
+    body:
+      -
+        value: 'Beatae sed omnis voluptatem laudantium eaque veritatis vitae perspiciatis iste accusantium totam. Iste accusantium totam quae architecto dicta unde natus doloremque. Aperiam inventore beatae sed omnis voluptatem laudantium eaque veritatis vitae perspiciatis.'
+        format: icms_minimal
+        summary: ''
+    field_icms_teaser_title:
+      -
+        value: 'Natus voluptatem (Thema A/B/C)'
   fr:
     status:
-    - value: true
+      -
+        value: true
     uid:
-    - target_id: 1
+      -
+        target_id: 1
     title:
-    - value: Événement 3 thème A/B/C
-    created:
-    - value: 1769596989
+      -
+        value: 'Ducimus blanditiis (Thema A/B/C)'
     promote:
-    - value: false
+      -
+        value: false
     sticky:
-    - value: false
+      -
+        value: false
     moderation_state:
-    - value: published
+      -
+        value: published
     path:
-    - alias: /evenements/evenement-3-theme-abc
-      langcode: fr
-      pathauto: 0
+      -
+        alias: /evenements/ducimus-blanditiis
+        langcode: fr
+        pathauto: 0
     content_translation_source:
-    - value: de
+      -
+        value: de
     content_translation_outdated:
-    - value: false
+      -
+        value: false
+    body:
+      -
+        value: 'Cupiditate vero odio blanditiis deleniti dolores excepturi provident accusamus dignissimos praesentium corrupti. Dignissimos praesentium corrupti quas occaecati similique iusto ducimus voluptatum. Quos molestias cupiditate vero odio blanditiis deleniti dolores excepturi provident accusamus.'
+        format: icms_minimal
+        summary: ''
+    field_icms_teaser_title:
+      -
+        value: 'Ducimus blanditiis (Thema A/B/C)'
   it:
     status:
-    - value: true
+      -
+        value: true
     uid:
-    - target_id: 1
+      -
+        target_id: 1
     title:
-    - value: Evento 3 tema A/B/C
-    created:
-    - value: 1769596989
+      -
+        value: 'Odit fugit (Thema A/B/C)'
     promote:
-    - value: false
+      -
+        value: false
     sticky:
-    - value: false
+      -
+        value: false
     moderation_state:
-    - value: published
+      -
+        value: published
     path:
-    - alias: /eventi/evento-3-tema-abc
-      langcode: it
-      pathauto: 0
+      -
+        alias: /eventi/odit-fugit
+        langcode: it
+        pathauto: 0
     content_translation_source:
-    - value: de
+      -
+        value: de
     content_translation_outdated:
-    - value: false
+      -
+        value: false
+    body:
+      -
+        value: 'Numquam nemo voluptas fugit ratione neque dolorem eius enim aspernatur consequuntur sequi. Aspernatur consequuntur sequi porro adipisci modi ipsam odit magni. Nesciunt quisquam numquam nemo voluptas fugit ratione neque dolorem eius enim.'
+        format: icms_minimal
+        summary: ''
+    field_icms_teaser_title:
+      -
+        value: 'Odit fugit (Thema A/B/C)'
