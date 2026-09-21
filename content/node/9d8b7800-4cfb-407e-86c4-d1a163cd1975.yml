@@ -578,9 +578,6 @@ default:
           field_icms_media_elements:
             -
               entity: 8a653cc6-f666-4cbb-99db-349cb90b9659
-          field_icms_subtitle:
-            -
-              value: 'Ligula lorem sit adipiscing ornare posuere.'
           field_icms_text:
             -
               value: '<p>Amet elit potenti tortor porttitor montes dolor consectetur mollis dignissim cubilia ligula lorem sit. <strong>consectetur mollis</strong> posuere sociosqu mauris ipsum amet elit.</p>'
@@ -608,9 +605,6 @@ default:
             content_translation_outdated:
               -
                 value: false
-            field_icms_subtitle:
-              -
-                value: 'Beatae sed omnis voluptatem laudantium eaque.'
             field_icms_text:
               -
                 value: '<p>Iste accusantium totam quae architecto dicta unde natus doloremque aperiam inventore beatae sed omnis. <strong>natus doloremque</strong> eaque veritatis vitae perspiciatis iste accusantium.</p>'
@@ -631,9 +625,6 @@ default:
             content_translation_outdated:
               -
                 value: false
-            field_icms_subtitle:
-              -
-                value: 'Cupiditate vero odio blanditiis deleniti dolores.'
             field_icms_text:
               -
                 value: '<p>Dignissimos praesentium corrupti quas occaecati similique iusto ducimus voluptatum quos molestias cupiditate vero odio. <strong>ducimus voluptatum</strong> dolores excepturi provident accusamus dignissimos praesentium.</p>'
@@ -654,9 +645,6 @@ default:
             content_translation_outdated:
               -
                 value: false
-            field_icms_subtitle:
-              -
-                value: 'Numquam nemo voluptas fugit ratione neque.'
             field_icms_text:
               -
                 value: '<p>Aspernatur consequuntur sequi porro adipisci modi ipsam odit magni nesciunt quisquam numquam nemo voluptas. <strong>odit magni</strong> neque dolorem eius enim aspernatur consequuntur.</p>'

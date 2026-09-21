@@ -90,9 +90,6 @@ default:
           field_icms_pretitle:
             -
               value: 'ICMS Bundle'
-          field_icms_subtitle:
-            -
-              value: 'Events with dates, occurrences and registration.'
           field_icms_text:
             -
               value: '<p>The Events bundle manages events with one or more occurrences, optional registration and topic filters. Upcoming events are listed chronologically.</p>'
@@ -123,9 +120,6 @@ default:
             field_icms_pretitle:
               -
                 value: 'ICMS Bundle'
-            field_icms_subtitle:
-              -
-                value: 'Veranstaltungen mit Daten, Terminen und Anmeldung.'
             field_icms_text:
               -
                 value: '<p>Das Veranstaltungs-Bundle verwaltet Veranstaltungen mit einem oder mehreren Terminen, optionaler Anmeldung und Themenfiltern. Kommende Veranstaltungen werden chronologisch gelistet.</p>'
@@ -149,9 +143,6 @@ default:
             field_icms_pretitle:
               -
                 value: 'ICMS Bundle'
-            field_icms_subtitle:
-              -
-                value: 'Événements avec dates, occurrences et inscription.'
             field_icms_text:
               -
                 value: '<p>Le bundle Événements gère des événements avec une ou plusieurs occurrences, une inscription optionnelle et des filtres thématiques. Les événements à venir sont listés chronologiquement.</p>'
@@ -175,9 +166,6 @@ default:
             field_icms_pretitle:
               -
                 value: 'ICMS Bundle'
-            field_icms_subtitle:
-              -
-                value: 'Eventi con date, occorrenze e iscrizione.'
             field_icms_text:
               -
                 value: '<p>Il bundle Eventi gestisce eventi con una o più occorrenze, iscrizione opzionale e filtri tematici. Gli eventi futuri sono elencati cronologicamente.</p>'
